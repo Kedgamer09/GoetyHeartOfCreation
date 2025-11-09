@@ -26,7 +26,7 @@ public class ModItems {
     public static final RegistryObject<Item> SKULL_MIXTURE = ITEMS.register("skull_mixture",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> TEST_WAND = ITEMS.register("test_wand",
-            () -> new DarkWand(new Item.Properties(), SpellType.ILL));
+            () -> new DarkWand(new Item.Properties(), SpellType.NONE));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
