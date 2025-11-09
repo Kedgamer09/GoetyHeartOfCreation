@@ -1,0 +1,39 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "activation_item": {
+    "item": "ghoc:skull_mixture"
+  },
+  "craftType": "sabbath",
+  "soulCost": 1000,
+  "duration": 10,
+  "ingredients": [
+    {
+      "item": "ghoc:scroll_mixture"
+    },
+    {
+      "item": "ghoc:charm_mixture"
+    },
+    {
+      "item": "ghoc:spellstone_mixture"
+    },
+    {
+      "item": "ghoc:ring_mixture"
+    },
+    {
+      "item": "enigmaticlegacy:etherium_block"
+    },
+    {
+      "item": "goety:arca"
+    },
+    {
+      "item": "goety:undeath_potion"
+    },
+    {
+      "item": "goety:night_beacon"
+    }
+    ],
+  "result": {
+    "item": "enigmaticlegacy:enigmatic_item"
+  }
+}

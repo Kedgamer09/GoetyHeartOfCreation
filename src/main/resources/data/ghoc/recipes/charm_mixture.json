@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "enigmaticlegacy:ascension_amulet"
+    },
+    {
+      "item": "enigmaticlegacy:mega_sponge"
+    },
+    {
+      "item": "enigmaticlegacy:mining_charm"
+    },
+    {
+      "item": "enigmaticlegacy:monster_charm"
+    },
+    {
+      "item": "enigmaticlegacy:berserk_charm"
+    },
+    {
+      "item": "enigmaticlegacy:enchanter_pearl"
+    },
+    {
+      "item": "enigmaticlegacy:insignia"
+    },
+    {
+      "item": "enigmaticlegacy:enigmatic_eye"
+    },
+    {
+      "item": "enigmaticlegacy:eldritch_amulet"
+    }
+  ],
+  "result": {
+    "item": "ghoc:charm_mixture"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "r": {
+      "item": "goety:redstone_monstrosity_head"
+    },
+    "e": {
+      "item": "enigmaticlegacy:etherium_block"
+    }
+  },
+  "pattern": [
+    "eee",
+    "ere",
+    "eee"
+  ],
+  "result": {
+    "item": "ghoc:enchanted_etherium"
+  }
+}

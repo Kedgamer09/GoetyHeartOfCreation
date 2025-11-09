@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "ghoc:fuglite"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_universe_core": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "ghoc:universe_core"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_universe_core",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "ghoc:fuglite"
+    ]
+  },
+  "sends_telemetry_event": false
+}

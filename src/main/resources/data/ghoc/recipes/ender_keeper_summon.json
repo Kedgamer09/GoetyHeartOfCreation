@@ -1,0 +1,44 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:convert",
+  "activation_item": {
+    "item": "goety:rupture_focus"
+  },
+  "craftType": "end",
+  "entity_to_convert": {
+    "tag": "minecraft:villager",
+    "display_name": "entity.minecraft.villager"
+  },
+  "entity_to_convert_into": "goety:ender_keeper",
+  "soulCost": 1500,
+  "duration": 50,
+  "ingredients": [
+    {
+      "item": "goety:philosophers_stone"
+    },
+    {
+      "item": "goety:dark_scroll"
+    },
+    {
+      "item": "goety:unholy_blood"
+    },
+    {
+      "item": "goety:void_crown"
+    },
+    {
+      "item": "goety:void_robe"
+    },
+    {
+      "item": "goety:void_staff"
+    },
+    {
+      "item": "goety:end_walk_focus"
+    },
+    {
+      "item": "goety:blazing_horn"
+    }
+  ],
+  "result": {
+    "item": "goety:jei_dummy/none"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "item.ghoc.spellstone_mixture": "Prismatic Spellstone",
+  "item.ghoc.charm_mixture": "Eye of Ethender",
+  "item.ghoc.scroll_mixture": "Prismatic Scroll",
+  "item.ghoc.ring_mixture": "Prismatic Ring",
+  "item.ghoc.universe_core": "Core of The Universe",
+  "item.ghoc.skull_mixture": "Skull Mixture",
+  "item.ghoc.test_wand": "Test Wand",
+
+  "block.ghoc.enchanted_etherium": "Enchanted Etherium Block",
+  "block.ghoc.fuglite": "Fuglite",
+  "tooltip.ghoc.fuglite.tooltip": "wtf is wrong with you",
+
+  "creativetab.ghoc_tab": "Goety Heart of Creation"
+}

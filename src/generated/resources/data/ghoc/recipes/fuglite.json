@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecraft:black_concrete_powder"
+    },
+    "U": {
+      "item": "ghoc:universe_core"
+    }
+  },
+  "pattern": [
+    "BBB",
+    "BUB",
+    "BBB"
+  ],
+  "result": {
+    "item": "ghoc:fuglite"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "enigmaticlegacy:eye_of_nebula"
+    },
+    {
+      "item": "enigmaticlegacy:blazing_core"
+    },
+    {
+      "item": "enigmaticlegacy:void_pearl"
+    },
+    {
+      "item": "enigmaticlegacy:ocean_stone"
+    },
+    {
+      "item": "enigmaticlegacy:angel_blessing"
+    },
+    {
+      "item": "enigmaticlegacy:golem_heart"
+    },
+    {
+      "item": "enigmaticlegacy:the_cube"
+    },
+    {
+      "item": "enigmaticlegacy:cosmic_heart"
+    },
+    {
+      "item": "enigmaticlegacy:cosmic_heart"
+    }
+  ],
+  "result": {
+    "item": "ghoc:spellstone_mixture"
+  }
+}

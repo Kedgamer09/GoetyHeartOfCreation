@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "m": {
+      "item": "goety:redstone_monstrosity_head"
+    },
+    "g": {
+      "item": "goety:grave_golem_skull"
+    },
+    "r": {
+      "item": "goety:redstone_golem_skull"
+    }
+  },
+  "pattern": [
+    "m",
+    "g",
+    "r"
+  ],
+  "result": {
+    "item": "ghoc:skull_mixture"
+  }
+}

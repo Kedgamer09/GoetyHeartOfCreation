@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "enigmaticlegacy:magnet_ring"
+    },
+    {
+      "item": "enigmaticlegacy:super_magnet_ring"
+    },
+    {
+      "item": "enigmaticlegacy:ender_ring"
+    },
+    {
+      "item": "enigmaticlegacy:iron_ring"
+    },
+    {
+      "item": "enigmaticlegacy:golden_ring"
+    },
+    {
+      "item": "enigmaticlegacy:desolation_ring"
+    }
+  ],
+  "result": {
+    "item": "ghoc:ring_mixture"
+  }
+}

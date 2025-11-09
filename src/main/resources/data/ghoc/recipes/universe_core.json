@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "s": {
+      "item": "ghoc:scroll_mixture"
+    },
+    "c": {
+      "item": "enigmaticlegacy:enigmatic_item"
+    },
+    "S": {
+      "item": "ghoc:spellstone_mixture"
+    },
+    "e": {
+      "item": "ghoc:enchanted_etherium"
+    }
+  },
+  "pattern": [
+    "sss",
+    "ScS",
+    "eee"
+  ],
+  "result": {
+    "item": "ghoc:universe_core"
+  }
+}

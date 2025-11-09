@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "enigmaticlegacy:xp_scroll"
+    },
+    {
+      "item": "enigmaticlegacy:escape_scroll"
+    },
+    {
+      "item": "enigmaticlegacy:heaven_scroll"
+    },
+    {
+      "item": "enigmaticlegacy:thicc_scroll"
+    },
+    {
+      "item": "enigmaticlegacy:fabulous_scroll"
+    },
+    {
+      "item": "enigmaticlegacy:cursed_scroll"
+    },
+    {
+      "item": "enigmaticlegacy:avarice_scroll"
+    },
+    {
+      "item": "enigmaticlegacy:darkest_scroll"
+    }
+  ],
+  "result": {
+    "item": "ghoc:scroll_mixture"
+  }
+}
