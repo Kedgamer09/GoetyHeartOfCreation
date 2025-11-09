@@ -1,2 +1,3 @@
-# Forge-Tutorial-1.20.X
- 
+#Goety Heart Of Creation
+
+A mod for crafting the Heart of Creation from Enigmatic Legacy using Goety Rituals
