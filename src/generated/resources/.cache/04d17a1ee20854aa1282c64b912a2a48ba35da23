@@ -1,4 +1,4 @@
-// 1.20.1	2025-11-09T16:08:58.2763946	Item Models: ghoc
+// 1.20.1	2025-11-10T16:13:02.9770682	Item Models: ghoc
 f55399810863695a076962f810548611639e6360 assets/ghoc/models/item/charm_mixture.json
 e7f5ad09292353977942cb242b950ef3c566f459 assets/ghoc/models/item/ring_mixture.json
 9f7b8fd49dbd18b1c385d08bafb94f1e43a97875 assets/ghoc/models/item/scroll_mixture.json
@@ -6,3 +6,4 @@ e7f5ad09292353977942cb242b950ef3c566f459 assets/ghoc/models/item/ring_mixture.js
 4b1d9e715217bf8d564a1c0fc7b85646366c7844 assets/ghoc/models/item/spellstone_mixture.json
 8790590e434156e06abc46361cb47342314bacd5 assets/ghoc/models/item/test_wand.json
 3f6c1d6ac2dfd015bd95710adef6adda45f5d0fc assets/ghoc/models/item/universe_core.json
+7d5140efcea393ac93246c6d5db17cce660ca4e0 assets/ghoc/models/item/unwitnessed_gem.json

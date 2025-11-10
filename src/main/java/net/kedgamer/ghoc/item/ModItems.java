@@ -25,6 +25,8 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> SKULL_MIXTURE = ITEMS.register("skull_mixture",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> UNWITNESSED_GEM = ITEMS.register("unwitnessed_gem",
+            () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> TEST_WAND = ITEMS.register("test_wand",
             () -> new DarkWand(new Item.Properties(), SpellType.NONE));
 

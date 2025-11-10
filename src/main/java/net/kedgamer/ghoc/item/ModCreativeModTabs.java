@@ -24,6 +24,7 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.SPELLSTONE_MIXTURE.get());
                         pOutput.accept(ModItems.UNIVERSE_CORE.get());
                         pOutput.accept(ModItems.SKULL_MIXTURE.get());
+                        pOutput.accept(ModItems.UNWITNESSED_GEM.get());
 
                         pOutput.accept(ModBlocks.FUGLITE.get());
                         pOutput.accept(ModBlocks.ENCHANTED_ETHERIUM.get());

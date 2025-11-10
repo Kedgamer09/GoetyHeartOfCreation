@@ -43,6 +43,21 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy(getHasName(ModItems.UNIVERSE_CORE.get()), has(ModItems.UNIVERSE_CORE.get()))
                 .save(pWriter);
 
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.UNWITNESSED_GEM.get(), 1)
+                .pattern("D L")
+                .pattern("NEQ")
+                .pattern("R A")
+                .define('D', Items.DIAMOND)
+                .define('L', Items.LAPIS_LAZULI)
+                .define('N', Items.NETHERITE_INGOT)
+                .define('E', Items.EMERALD)
+                .define('Q', Items.QUARTZ)
+                .define('R', Items.REDSTONE)
+                .define('A', Items.AMETHYST_SHARD)
+
+                .unlockedBy(getHasName(ModItems.UNIVERSE_CORE.get()), has(ModItems.UNIVERSE_CORE.get()))
+                .save(pWriter);
+
         /*ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.UNIVERSE_CORE.get(), 1)
                 .pattern("sss")
                 .pattern("ScS")
