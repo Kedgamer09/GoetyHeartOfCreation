@@ -25,6 +25,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.SKULL_MIXTURE);
         simpleItem(ModItems.TEST_WAND);
         simpleItem(ModItems.UNWITNESSED_GEM);
+        simpleItem(ModItems.TEST_ITEM);
     }
 
     private ItemModelBuilder simpleItem(RegistryObject<Item> item) {

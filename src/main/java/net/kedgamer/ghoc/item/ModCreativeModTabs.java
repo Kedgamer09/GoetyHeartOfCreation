@@ -30,6 +30,7 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModBlocks.ENCHANTED_ETHERIUM.get());
 
                         pOutput.accept(ModItems.TEST_WAND.get());
+                        pOutput.accept(ModItems.TEST_ITEM.get());
                     })
                     .build());
 
