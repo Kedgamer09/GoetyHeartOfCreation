@@ -11,7 +11,14 @@
 
   "block.ghoc.enchanted_etherium": "Enchanted Etherium Block",
   "block.ghoc.fuglite": "Fuglite",
-  "tooltip.ghoc.fuglite.tooltip": "what is wrong with you",
+  "tooltip.ghoc.fuglite.tooltip": "What is wrong with you",
 
-  "creativetab.ghoc_tab": "Goety Heart of Creation"
+  "creativetab.ghoc_tab": "Goety Heart of Creation",
+
+  "advancements.ghoc.root.title": "Goety Heart of Creation",
+  "advancements.ghoc.root.description": "Crafted The Heart of Creation",
+  "advancements.ghoc.crafted_fuglite.title": "Why have you done this?",
+  "advancements.ghoc.crafted_fuglite.description": "Crafted the Fuglite",
+  "advancements.ghoc.crafted_universe_core.title": "The core of everything",
+  "advancements.ghoc.crafted_universe_core.description": "Crafted the Core of the Universe"
 }

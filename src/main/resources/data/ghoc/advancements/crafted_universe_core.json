@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "ghoc:universe_core"
+    },
+    "title": {
+      "translate": "advancements.ghoc.crafted_universe_core.title"
+    },
+    "description": {
+      "translate": "advancements.ghoc.crafted_universe_core.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "ghoc:root",
+  "criteria": {
+    "crafted_universe_core": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "ghoc:universe_core"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "crafted_universe_core"
+    ]
+  ]
+}

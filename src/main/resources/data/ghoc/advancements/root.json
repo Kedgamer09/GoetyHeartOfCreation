@@ -1,0 +1,37 @@
+{
+  "criteria": {
+    "crafted_heart_of_creation": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "enigmaticlegacy:enigmatic_item"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "background": "minecraft:textures/block/netherite_block.png",
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.ghoc.root.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "ghoc:scroll_mixture"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.ghoc.root.title"
+    }
+  },
+  "requirements": [
+    [
+      "crafted_heart_of_creation"
+    ]
+  ]
+}

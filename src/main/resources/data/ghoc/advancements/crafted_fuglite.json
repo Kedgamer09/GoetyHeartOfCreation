@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "ghoc:fuglite"
+    },
+    "title": {
+      "translate": "advancements.ghoc.crafted_fuglite.title"
+    },
+    "description": {
+      "translate": "advancements.ghoc.crafted_fuglite.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "ghoc:crafted_universe_core",
+  "criteria": {
+    "crafted_fuglite": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "ghoc:fuglite"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "crafted_fuglite"
+    ]
+  ]
+}
