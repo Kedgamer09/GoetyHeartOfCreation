@@ -98,10 +98,6 @@ public class UniverseCoreItem extends Item {
         tag.put("Owner", uuidNBT);
         pInteractionTarget.load(tag);
 
-        if (pInteractionTarget instanceof TamableAnimal tamable) {
-            tamable.setOwnerUUID(pPlayer.getUUID());
-            tamable.setTame(true);
-        }
 
         return InteractionResult.SUCCESS;
     }
