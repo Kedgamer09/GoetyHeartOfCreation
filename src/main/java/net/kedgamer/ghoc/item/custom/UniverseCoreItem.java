@@ -9,6 +9,7 @@ import net.minecraft.server.level.ServerLevel;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.InteractionResultHolder;
+import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.TamableAnimal;
 import net.minecraft.world.entity.player.Player;
@@ -78,8 +79,14 @@ public class UniverseCoreItem extends Item {
     public InteractionResult interactLivingEntity(ItemStack pStack, Player pPlayer, LivingEntity pInteractionTarget, InteractionHand pUsedHand) {
 
 
-        if (pPlayer.level().isClientSide)
+        if (pPlayer.level().isClientSide) {
             return InteractionResult.SUCCESS;
+        }
+
+        if (pInteractionTarget.getType() == EntityType.PLAYER) {
+            return InteractionResult.PASS;
+        }
+
 
         CompoundTag tag = new CompoundTag();
         pInteractionTarget.saveWithoutId(tag);
